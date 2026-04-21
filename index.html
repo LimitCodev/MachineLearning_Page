@@ -27,8 +27,11 @@
       <div class="mini-etiqueta">DEFINICIÓN</div>
       <div class="fila-flex">
         <div class="columna-texto">
-          <h2>[AQUÍ IRÍA EL TÍTULO 1]</h2>
-          <p>[AQUÍ IRÍA EL TEXTO 1: Explicación teórica de la disciplina.]</p>
+          <h2>¿Qué es el Machine Learning?</h2>
+          <p>El machine learning es el subconjunto de la inteligencia artificial (IA) centrado en algoritmos que pueden "aprender" 
+              los patrones de los datos de entrenamiento y, posteriormente, hacer inferencias precisas sobre nuevos datos. Esta capacidad de 
+              reconocimiento de patrones permite a los modelos de machine learning 
+              tomar decisiones o realizar predicciones sin instrucciones explícitas y codificadas de forma rígida.</p>
         </div>
         <div class="columna-imagen">
           <img src="img/esquema_ml.png" id="img1" onmouseover="iluminar('img1')" onmouseout="apagar('img1')" alt="[AQUÍ IRÍA LA IMAGEN 1]">
@@ -42,8 +45,21 @@
       <div class="mini-etiqueta">MODELOS</div>
       <div class="fila-flex fila-inversa">
         <div class="columna-texto">
-          <h2>[AQUÍ IRÍA EL TÍTULO 2]</h2>
-          <p>[AQUÍ IRÍA EL TEXTO 2: Explicación de los modelos de detección.]</p>
+          <h2>Random Forest (Bosques Aleatorios)</h2>
+          <p>
+Es un modelo ensemble formado por múltiples árboles de decisión. Usa bootstrap aggregation (bagging) y selección aleatoria de características 
+              para construir cada árbol de forma 
+              independiente, luego agrega sus predicciones para obtener un resultado más robusto y preciso.
+              Se aplica tanto a clasificación como regresión, y es especialmente útil para evitar el overfitting.<br>
+              Support Vector Machine (SVM)<br></p><h2>Support Vector Machine (SVM)</h2><p>
+Es un potente algoritmo que busca un hiperplano en el espacio de características que separe mejor los datos, 
+              maximizando el margen entre los puntos de cada clase.Funciona tanto para clasificación binaria como multi-clase, 
+              y es muy efectivo en espacios de alta 
+              dimensión como análisis de texto o detección de intrusiones.</p>
+              <h2>K-Means Clustering</h2><p>
+Es una técnica de aprendizaje no supervisado que agrupa datos en K clusters. El algoritmo parte de centros iniciales y asigna 
+              iterativamente cada punto al 
+              cluster más cercano, recalculando el centro de cada grupo hasta que los clusters se estabilizan.</p>
         </div>
         <div class="columna-imagen">
           <img src="img/placeholder_2.png" id="img2" onmouseover="iluminar('img2')" onmouseout="apagar('img2')" alt="[AQUÍ IRÍA LA IMAGEN 2]">
@@ -57,8 +73,13 @@
       <div class="mini-etiqueta">DATOS</div>
       <div class="fila-flex">
         <div class="columna-texto">
-          <h2>[AQUÍ IRÍA EL TÍTULO 3]</h2>
-          <p>[AQUÍ IRÍA EL TEXTO 3: Sobre el procesamiento de datos.]</p>
+          <h2>Etiquetados (labeled)</h2>
+          <p>cada registro tiene una respuesta conocida (ej. "spam / no spam"). Son la base del aprendizaje supervisado.
+Datos <br></p><h2>No Etiquetados (unlabeled)</h2><p>sin respuesta conocida. Los algoritmos de clustering dependen exclusivamente de los datos de entrada para 
+              modelar la estructura subyacente y 
+              descubrir patrones por sí solos, sin un "maestro" que indique las respuestas correctas.<br></p><h2>Estructurados</h2>
+           <p>tablas, bases de datos SQL, CSV.
+ <br></p><h2>No Estructurados</h2> <p>imágenes, audio, texto libre, logs de red (muy comunes en ciberseguridad).</p>
         </div>
         <div class="columna-imagen">
           <img src="img/placeholder_3.png" id="img3" onmouseover="iluminar('img3')" onmouseout="apagar('img3')" alt="[AQUÍ IRÍA LA IMAGEN 3]">
@@ -74,16 +95,22 @@
       <div class="fila-lista">
         <img src="img/miniatura_1.png" id="img4" onmouseover="iluminar('img4')" onmouseout="apagar('img4')" alt="[AQUÍ IRÍA IMAGEN PEQUEÑA 1]">
         <div class="columna-texto">
-          <h3 class="resalto-amarillo">[AQUÍ IRÍA EL SUBTÍTULO 4]</h3>
-          <p>[AQUÍ IRÍA EL TEXTO 4: Noticia o novedad.]</p>
+          <h3 class="resalto-amarillo">CAI – Cybersecurity AI Framework</h3>
+          <p>
+Es un framework ligero y open source que permite construir y desplegar agentes de IA para automatización ofensiva y defensiva en ciberseguridad. 
+              Incluye herramientas integradas de reconocimiento, explotación y escalada de privilegios, y ha sido probado en CTFs de 
+              HackTheBox y programas de bug bounty</p>
         </div>
       </div>
 
       <div class="fila-lista">
         <img src="img/miniatura_2.png" id="img5" onmouseover="iluminar('img5')" onmouseout="apagar('img5')" alt="[AQUÍ IRÍA IMAGEN PEQUEÑA 2]">
         <div class="columna-texto">
-          <h3 class="resalto-amarillo">[AQUÍ IRÍA EL SUBTÍTULO 5]</h3>
-          <p>[AQUÍ IRÍA EL TEXTO 5: Otra noticia o novedad.]</p>
+          <h3 class="resalto-amarillo">IBM Adversarial Robustness Toolbox (ART)</h3>
+          <p> 
+Es una librería Python para defensa de modelos de ML contra amenazas adversariales, mantenida por la Linux AI & Data Foundation. 
+              Protege contra ataques de evasión, 
+              envenenamiento de datos y extracción de modelos mediante defensas preconstruidas y herramientas de red/blue teaming.</p>
         </div>
       </div>
     </div>
