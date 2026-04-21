@@ -83,3 +83,26 @@ h1{
     background-color:#ffcc00; 
     color:#000000; 
 }
+/*Flexbox:*/
+.contenedor-flex {
+    display:flex;   
+    align-items:center;    
+    justify-content:space-around; 
+    padding:50px 10% ;        
+}
+.contenido-texto {
+    flex:1;
+    padding-right:40px;     
+}
+.contenido-texto h2 {
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+.contenido-imagen {
+    flex: 1;
+    text-align:center;
+}
+.contenido-imagen img {
+    border:2px solid #ffcc00;
+    border-radius:8px;
+}
