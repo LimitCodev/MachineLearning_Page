@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <title>Machine Learning</title>
-    <link rel="icon" type="image/png" href="img/logo_machine.png">
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="machine.css">
-  </head>
 <body>
     <div id="encabezado">
       <img src="img/logo_machine.png" alt="Logo Machine Learning" width="200" height="200" id="logo-principal">
       <h1>Los últimos avances en el campo del <span class="resalto-amarillo">Machine Learning</span></h1>
-      <p class="subtitulo" id="texto-estado">Algoritmos inteligentes para el aprendizaje del equipo por medio de datos.</p>
-      <button onclick="iniciarAnalisis()" class="boton-cyber" style="margin-top:15px; cursor:pointer;">Iniciar Análisis</button>
+      <p class="subtitulo">Algoritmos inteligentes para el aprendizaje del equipo por medio de datos.</p>
     </div>
 
     <div id="navegacion">
@@ -24,14 +14,14 @@
     </div>
 
     <div id="definicion" class="seccion-contenido">
-      <div class="mini-etiqueta"><span>//</span> DEFINICIÓN</div>
+      <div class="mini-etiqueta">DEFINICIÓN</div>
       <div class="fila-flex">
         <div class="columna-texto">
-          <h2>¿Qué es el Machine Learning?</h2>
-          <p>El Machine Learning es la disciplina que permite a las computadoras aprender patrones sin ser programadas explícitamente. En ciberseguridad, esto es vital para detectar comportamientos anómalos en milisegundos.</p>
+          <h2>[AQUÍ IRÍA EL TÍTULO 1]</h2>
+          <p>[AQUÍ IRÍA EL TEXTO 1: Explicación teórica de la disciplina.]</p>
         </div>
         <div class="columna-imagen">
-          <img src="img/esquema_ml.png" alt="Esquema de ML">
+          <img src="img/esquema_ml.png" id="img1" onmouseover="iluminar('img1')" onmouseout="apagar('img1')" alt="[AQUÍ IRÍA LA IMAGEN 1]">
         </div>
       </div>
     </div>
@@ -39,19 +29,54 @@
     <hr class="separador-amarillo">
 
     <div id="modelos" class="seccion-contenido">
-      <div class="mini-etiqueta"><span>//</span> MODELOS DE DETECCIÓN</div>
+      <div class="mini-etiqueta">MODELOS</div>
       <div class="fila-flex fila-inversa">
         <div class="columna-texto">
-          <h2>Tipos de Algoritmos</h2>
-          <p>Los modelos supervisados y no supervisados permiten clasificar archivos maliciosos y agrupar comportamientos sospechosos en la red.</p>
+          <h2>[AQUÍ IRÍA EL TÍTULO 2]</h2>
+          <p>[AQUÍ IRÍA EL TEXTO 2: Explicación de los modelos de detección.]</p>
         </div>
         <div class="columna-imagen">
-          <img src="img/imagen_modelos.png" alt="Modelos ML">
+          <img src="img/placeholder_2.png" id="img2" onmouseover="iluminar('img2')" onmouseout="apagar('img2')" alt="[AQUÍ IRÍA LA IMAGEN 2]">
         </div>
       </div>
     </div>
 
     <hr class="separador-amarillo">
+
+    <div id="datos" class="seccion-contenido">
+      <div class="mini-etiqueta">DATOS</div>
+      <div class="fila-flex">
+        <div class="columna-texto">
+          <h2>[AQUÍ IRÍA EL TÍTULO 3]</h2>
+          <p>[AQUÍ IRÍA EL TEXTO 3: Sobre el procesamiento de datos.]</p>
+        </div>
+        <div class="columna-imagen">
+          <img src="img/placeholder_3.png" id="img3" onmouseover="iluminar('img3')" onmouseout="apagar('img3')" alt="[AQUÍ IRÍA LA IMAGEN 3]">
+        </div>
+      </div>
+    </div>
+
+    <hr class="separador-amarillo">
+
+    <div id="novedades" class="seccion-contenido">
+      <div class="mini-etiqueta">ÚLTIMAS NOVEDADES</div>
+      
+      <div class="fila-lista">
+        <img src="img/miniatura_1.png" id="img4" onmouseover="iluminar('img4')" onmouseout="apagar('img4')" alt="[AQUÍ IRÍA IMAGEN PEQUEÑA 1]">
+        <div class="columna-texto">
+          <h3 class="resalto-amarillo">[AQUÍ IRÍA EL SUBTÍTULO 4]</h3>
+          <p>[AQUÍ IRÍA EL TEXTO 4: Noticia o novedad.]</p>
+        </div>
+      </div>
+
+      <div class="fila-lista">
+        <img src="img/miniatura_2.png" id="img5" onmouseover="iluminar('img5')" onmouseout="apagar('img5')" alt="[AQUÍ IRÍA IMAGEN PEQUEÑA 2]">
+        <div class="columna-texto">
+          <h3 class="resalto-amarillo">[AQUÍ IRÍA EL SUBTÍTULO 5]</h3>
+          <p>[AQUÍ IRÍA EL TEXTO 5: Otra noticia o novedad.]</p>
+        </div>
+      </div>
+    </div>
 
     <div id="seccion-cyber">
       <h3 class="mini-titulo-cyber">Aspecto: Cyberseguridad</h3>
@@ -60,4 +85,3 @@
 
     <script src="machine.js"></script>
   </body>
-</html>
